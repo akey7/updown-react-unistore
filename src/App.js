@@ -3,14 +3,12 @@ import './App.css'
 import { actions } from './store-and-actions'
 import { connect } from 'unistore/react'
 import NumberDisplay from './number-display-component'
+import UpDown from './updown-component'
 
 const App = ({ count, increment, decrement }) => (
   <div className="App">
     <NumberDisplay />
-    <div>
-      <button onClick={ increment }>Up</button>
-      <button onClick={ decrement }>Down</button>
-    </div>
+    <UpDown />
   </div>
 )
 
