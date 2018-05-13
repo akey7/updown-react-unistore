@@ -7,4 +7,6 @@ const actions = (theStore) => ({
   decrement: ({ count }) => ({ count: count - 1 })
 })
 
+// Look: NO REDUCERS!
+
 export { store, actions }
